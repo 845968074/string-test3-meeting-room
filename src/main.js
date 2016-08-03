@@ -34,7 +34,8 @@ function generateTodoHtml(todoItems) {
         </ul>
         <button>Clear completed</button>
     </footer>
-</section>`;
+</section>
+`;
     let expected=`${list+result+lists}`;
   require(`fs`).writeFileSync('./1.txt',expected);
   return expected;
